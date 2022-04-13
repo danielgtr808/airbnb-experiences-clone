@@ -13,6 +13,8 @@
 }
 
 :root {
+    --c-white-10: #FFFFFF;
+    --c-dark-10: #918E9B;
     --c-dark-50: #222222;
     --c-dark-90: #000000;
 }
@@ -28,6 +30,19 @@ html {
 html, body, #root {
     height: 100%;
     width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 36px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
 
 .global-shadow {
@@ -46,4 +61,10 @@ p {
     font-size: 1rem;
     font-weight: 300;
     line-height: 110%;
+}
+
+.star-icon {
+    background-image: url("./assets/svg/star-icon.svg");
+    height: 14px;
+    width: 14px;
 }

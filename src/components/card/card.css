@@ -1,0 +1,62 @@
+.card {
+    color: var(--c-dark-50);
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 300;
+    gap: 4px;
+    line-height: 110%;
+    min-width: 176px;
+    position: relative;
+    width: 176px;
+}
+
+.card__status {
+    background-color: var(--c-white-10);
+    left: 8px;
+    padding: 4px;
+    position: absolute;
+    top: 8px;
+}
+
+.card__image {
+    border-radius: 8px;
+    height: 240px;
+    width: 100%;
+}
+
+.card__experience-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__rating-row {
+    color: var(--c-dark-10);
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.card__rating {
+    color: var(--c-dark-90);
+}
+
+.dot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dot::after {
+    content: "";
+    background-color: var(--c-dark-10);
+    border-radius: 50%;
+    height: 2px;
+    width: 2px;
+}
+
+.card__price {
+    font-weight: 600;
+}
