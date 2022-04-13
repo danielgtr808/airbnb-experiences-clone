@@ -10,8 +10,7 @@ function Card() {
                 <div className="card__rating-row">
                     <div className="star-icon"></div>
                     <span className="card__rating">5.0</span>
-                    <span>(6)</span>
-                    <div className="dot"></div>
+                    <span>(6) • </span>                    
                     <span>USA</span>
                 </div>
                 <span>Life lessons with Katie Zaferes</span>

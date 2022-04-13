@@ -36,13 +36,14 @@ main {
     display: flex;
     flex-direction: column;
     gap: 48px;
-    padding: 36px;
 }
 
 .cards {
     display: flex;
     flex-direction: row;
     gap: 16px;
+    overflow: auto hidden;
+    padding-left: 36px;
 }
 
 .global-shadow {

@@ -43,20 +43,6 @@
     color: var(--c-dark-90);
 }
 
-.dot {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.dot::after {
-    content: "";
-    background-color: var(--c-dark-10);
-    border-radius: 50%;
-    height: 2px;
-    width: 2px;
-}
-
 .card__price {
     font-weight: 600;
 }
