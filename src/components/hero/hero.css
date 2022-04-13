@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 36px;
+}
+
+.hero__experiences-image {
+    padding: 0px 80px;
+    width: 100%;
+}
+
+.hero__cta {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero__heading {
+    color: var(--c-dark-90);
+}
+
+.hero_paragraph {
+    color: var(--c-dark-50);
+}

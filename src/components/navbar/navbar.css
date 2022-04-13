@@ -1,0 +1,11 @@
+.navbar {
+    padding: 24px 32px;
+    width: 100%;
+}
+
+.navbar__logo {
+    background-image: url("./../../assets/svg/logo.svg");
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 80px;
+}
